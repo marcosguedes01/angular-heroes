@@ -12,7 +12,7 @@ import { InMemoryDataService }  from './mocks/in-memory-data.service';
 import { AppComponent } from "./components/app/app.component";
 import { DashboardComponent } from "./components/dashboard/dashboard.component";
 import { HeroDetailComponent } from './components/heroesdetails/hero.detail.component';
-import { HeroesComponent } from './components/heroes/heroes.component';
+import { HeroesListComponent } from './components/heroeslist/heroes.list.component';
 import { HeroSearchComponent } from './components/herosearch/hero-search.component';
 import { HeroService } from "./services/hero.service";
 
@@ -28,7 +28,7 @@ import { HeroService } from "./services/hero.service";
     AppComponent,
     DashboardComponent,
     HeroDetailComponent,
-    HeroesComponent    ,
+    HeroesListComponent    ,
     HeroSearchComponent
   ],  
   providers: [ HeroService ],
